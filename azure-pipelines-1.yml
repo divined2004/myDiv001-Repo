@@ -20,6 +20,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName myDiv001-Repo -linkedTemplateUri https://raw.githubusercontent.com/divined2004/myDiv001-Repo/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName mydiv001r -linkedTemplateUri https://raw.githubusercontent.com/divined2004/myDiv001-Repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
